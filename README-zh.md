@@ -11,13 +11,13 @@
 
 ```go
 import (
-	"git@github.com:hanyue2020/concurrent-map.git"
+	"github.com/hanyue2020/concurrent-map"
 )
 
 ```
 
 ```bash
-go get "git@github.com:hanyue2020/concurrent-map.git"
+go get "github.com/hanyue2020/concurrent-map"
 ```
 
 现在包被导入到了`cmap`命名空间下
@@ -48,7 +48,7 @@ go get "git@github.com:hanyue2020/concurrent-map.git"
 运行测试:
 
 ```bash
-go test "git@github.com:hanyue2020/concurrent-map.git"
+go test "github.com/hanyue2020/concurrent-map"
 ```
 
 ## 贡献说明
@@ -61,4 +61,4 @@ go test "git@github.com:hanyue2020/concurrent-map.git"
 - 一般来说，我们希望`concurrent-map`尽可能简单，且与原生的`map`有相似的操作。当你新建issue时请注意这一点。
 
 ## 许可证
-MIT (see [LICENSE](https://git@github.com:hanyue2020/concurrent-map.git/blob/master/LICENSE) file)
+MIT (see [LICENSE](https://github.com/hanyue2020/concurrent-map/blob/master/LICENSE) file)

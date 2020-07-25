@@ -10,13 +10,13 @@ Import the package:
 
 ```go
 import (
-	"git@github.com:hanyue2020/concurrent-map.git"
+	"github.com/hanyue2020/concurrent-map"
 )
 
 ```
 
 ```bash
-go get "git@github.com:hanyue2020/concurrent-map.git"
+go get "github.com/hanyue2020/concurrent-map"
 ```
 
 The package is now imported under the "cmap" namespace.
@@ -46,7 +46,7 @@ For more examples have a look at concurrent_map_test.go.
 Running tests:
 
 ```bash
-go test "git@github.com:hanyue2020/concurrent-map.git"
+go test "github.com/hanyue2020/concurrent-map"
 ```
 
 ## guidelines for contributing
@@ -62,4 +62,4 @@ Contributions are highly welcome. In order for a contribution to be merged, plea
 - [中文说明](./README-zh.md)
 
 ## license
-MIT (see [LICENSE](https://git@github.com:hanyue2020/concurrent-map.git/blob/master/LICENSE) file)
+MIT (see [LICENSE](https://github.com/hanyue2020/concurrent-map/blob/master/LICENSE) file)
